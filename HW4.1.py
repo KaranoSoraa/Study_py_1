@@ -1,5 +1,5 @@
 # https://github.com/KaranoSoraa/Study_py_1/tree/master
-a = input("Здравствуйте. Введите тип используемыех данны(int, float): ")
+a = input("Здравствуйте. Введите тип используемых данны(int, float): ")
 if a == "int":
     a, b, c = map(int, input("Введите значения сторон треугольника через пробел: ").split())
     P = a + b + c

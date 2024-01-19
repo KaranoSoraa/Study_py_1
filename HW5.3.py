@@ -1,7 +1,9 @@
 # https://github.com/KaranoSoraa/Study_py_1/tree/master
-Mike = 12000
-Ivan = 20000
-cash = 30000
+import random
+
+Mike = random.randint(0, 900000)
+Ivan = random.randint(0, 900000)
+cash = random.randint(100000, 900000)
 
 if Mike >= cash and Ivan >= cash:
     print(2)

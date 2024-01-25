@@ -1,7 +1,7 @@
 # https://github.com/KaranoSoraa/Study_py_1/tree/master
 def fact(x):
     num = x
-    for i in range(1, x,):
+    for i in range(1, x):
         num *= i
     return num
 

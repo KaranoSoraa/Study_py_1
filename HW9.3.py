@@ -1,7 +1,10 @@
 nums = list(map(int, input("Введите числа через пробел: ").split()))
+chit = []
 for i in nums:
-    che = nums.count(i)
-    if che > 1:
-        print(f"Для числа {i}: Yes")
+    if i == nums[0]:
+        continue
+    if i in chit:
+        print("Yes")
     else:
-        print(f"Для числа {i}: No")
+        print("No")
+    chit.append(i)

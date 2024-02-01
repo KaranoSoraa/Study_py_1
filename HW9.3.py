@@ -1,10 +1,10 @@
 nums = list(map(int, input("Введите числа через пробел: ").split()))
-chit = []
+chit = set()
 for i in nums:
-    if i == nums[0]:
-        continue
     if i in chit:
         print("Yes")
     else:
         print("No")
-    chit.append(i)
+    chit.add(i)
+
+# А что не так ?
